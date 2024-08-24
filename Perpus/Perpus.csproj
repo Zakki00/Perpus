@@ -55,14 +55,27 @@
     <Compile Include="Anggota.Designer.cs">
       <DependentUpon>Anggota.cs</DependentUpon>
     </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
     <Compile Include="Menu_Utama.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Menu_Utama.Designer.cs">
       <DependentUpon>Menu_Utama.cs</DependentUpon>
     </Compile>
+    <Compile Include="Modue1.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Anggota.resx">
+      <DependentUpon>Anggota.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Menu_Utama.resx">
       <DependentUpon>Menu_Utama.cs</DependentUpon>
     </EmbeddedResource>
